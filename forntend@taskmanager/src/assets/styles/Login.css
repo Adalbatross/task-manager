@@ -1,0 +1,165 @@
+/* Global Styles */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Hammersmith One', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the login page container */
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/pexels-iriser-1379640.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+/* Login Container Styling */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+
+    /* Flexbox to center contents */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Ensure form takes full width */
+.login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Login Title */
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #bb86fc;
+}
+
+/* Input group styling */
+.login-form .input-group {
+    width: 100%;
+    max-width: 300px; /* Matches the button width */
+    text-align: left;
+}
+
+/* Label Styling */
+.login-form .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e0e0e0;
+}
+
+/* Input Field Styling */
+.login-form .input-group input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #e0e0e0;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+/* Glow Effect on Focus */
+.login-form .input-group input:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 8px rgba(187, 134, 252, 0.8);
+}
+
+/* Placeholder Styling */
+.login-form .input-group input::placeholder {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* Input Hover Effect */
+.login-form .input-group input:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Login Button */
+.login-form .login-btn {
+    width: 100%;
+    max-width: 300px; /* Matches input field width */
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #bb86fc;
+    color: #121212;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Login Button Hover Effect */
+.login-form .login-btn:hover {
+    background-color: #9a67ea;
+    transform: translateY(-3px);
+}
+
+/* Error Message */
+.login-form .error {
+    color: #ff6b6b;
+    margin-bottom: 20px;
+}
+
+/* Additional Text Styling */
+.login-container p {
+    color: #e0e0e0;
+}
+
+/* Link Styling */
+.login-container a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+.login-input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #e0e0e0;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+    outline: none;
+    margin-bottom: 10px;
+    
+}
+
+/* Glow Effect on Focus */
+.login-input:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 8px rgba(187, 134, 252, 0.8);
+}
+
+/* Placeholder Styling */
+.login-input::placeholder {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* Input Hover Effect */
+.login-input:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
